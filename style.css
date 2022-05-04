@@ -1,0 +1,97 @@
+body {
+  background-image: url("./images/wallpaper.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "serif";
+  font-size: large;
+  text-align: center;
+}
+.backgorund-filter {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+.header {
+  border: 10px outset #234;
+  background-color: rgb(192, 230, 255);
+  color: black;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  width: fit-content;
+  margin-left: 80%;
+}
+.description {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(34, 51, 68, 0.498);
+  margin: 5px auto;
+  padding: 2px 5px;
+  color: red;
+}
+.description > h2 {
+  border-bottom: 2px outset rgb(61, 127, 185);
+}
+.description > p {
+  color: white;
+  max-width: 500px;
+}
+.col {
+  font-size: medium;
+  min-height: 400px;
+  max-height: fit-content;
+  min-width: 200px;
+  max-width: 300px;
+  margin-top: -173px;
+}
+.col > h3 {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(34, 51, 68, 0.498);
+  margin: 5px auto;
+  padding: 2px 5px;
+}
+.col > div {
+  margin: 2px auto;
+}
+.col > div > h3 {
+  border-bottom: 2px outset rgb(61, 127, 185);
+  color: rgb(214, 240, 109);
+}
+.col > div > p {
+  margin: 6px 6px;
+}
+
+.button {
+  background-color: #234;
+  color: white;
+  margin-bottom: 5px;
+  border: 6px outset rgb(104, 188, 230);
+  border-radius: 10px;
+  font-weight: 600;
+}
+#intro {
+  color: coral;
+}
+#accomplished {
+  color: greenyellow;
+}
+
+.box {
+  border: 5px outset rgb(115, 166, 186);
+  border-radius: 10px;
+}
+#bullet1-filter {
+  background-color: rgba(193, 140, 6, 0.509);
+}
+
+#bullet2-filter {
+  background-color: rgba(36, 89, 64, 0.509);
+}
+
+#bullet3-filter {
+  background-color: rgba(119, 167, 0, 0.509);
+}
